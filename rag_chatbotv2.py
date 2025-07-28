@@ -35,8 +35,11 @@ def generate_answer(query, context):
     chat_history = "\n".join([f"{msg.type}: {msg.content}" for msg in memory.load_memory_variables({})["chat_history"]])
 
     prompt = f"""
-                You are an AI assistant for Changi Airport Group and Jewel Changi Airport.
-                Use the provided context and past conversation to answer accurately.
+                You are an AI chat assistant with knowledge of Changi Airport Group and Changi Jewel Airport.
+                 STRICTLY ONLY use the context below to answer the user's question accurately.
+                 DONOT ANSWER ANYTHING outside the context provided.
+                 When the user asks about information not in the context, respond with "Sorry, I can only provide 
+                 information regarding Changi Airport Group and Jewel Changi Airport."
 
                 Chat History:
                 {chat_history}
