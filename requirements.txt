@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+openai
+python-dotenv
+sentence-transformers
+pinecone
+langchain
+bs4
+requests
+chromadb
