@@ -1,4 +1,4 @@
-# Changi-RAG-Chatbot
+# RAG Chatbot for Jewel Changi Airport
 
 A Retrieval-Augmented Generation (RAG) chatbot that integrates **LLMs** with **Pinecone vector database** for intelligent, context-aware responses. Deployed on **Hugging Face Spaces** with a **Gradio-based UI**.
 
