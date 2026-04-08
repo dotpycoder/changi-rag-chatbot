@@ -9,6 +9,9 @@ A Retrieval-Augmented Generation (RAG) chatbot that integrates **LLMs** with **P
 - **FastAPI Backend:** Provides REST endpoints for chatbot interaction.
 - **Gradio UI:** Simple and interactive frontend for users.
 - **Scalable Deployment:** Hosted on Hugging Face Spaces for easy access and collaboration.
+- 
+![Screenshot](assets/2.jpeg)
+![Screenshot](assets/3.jpeg)
 
 **the chatbot is live [here](https://akul-ai-changi-rag-chatbot.hf.space/).**
 
