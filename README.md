@@ -1,12 +1,3 @@
----
-title: Changi Jewel Airport Assistant
-emoji: ✈️
-colorFrom: green
-colorTo: yellow
-sdk: docker
-pinned: false
----
-
 # RAG Chatbot for Jewel Changi Airport
 
 A Retrieval-Augmented Generation (RAG) chatbot that integrates **LLMs** with **Pinecone vector database** for intelligent, context-aware responses.
