@@ -1,10 +1,25 @@
-fastapi
-uvicorn
-openai
-python-dotenv
-sentence-transformers
-pinecone
-langchain
-bs4
-requests
-chromadb
+# Core app
+streamlit==1.43.2
+python-dotenv==1.0.1
+
+# LangChain — pinned to a consistent 0.3.x stack
+langchain==0.3.27
+langchain-core==0.3.84
+langchain-openai==0.2.14
+langchain-community==0.3.27
+langchain-text-splitters==0.3.11
+
+# OpenAI
+openai==1.109.1
+
+# Pinecone
+pinecone==5.4.2
+
+# Embeddings
+sentence-transformers==3.4.1
+torch==2.6.0
+torchvision==0.21.0
+
+# Utilities
+requests==2.32.3
+bs4==0.0.2
